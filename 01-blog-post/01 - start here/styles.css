@@ -10,6 +10,7 @@
 }
 
 body {
+  color: #414141;
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
   margin: 0;
@@ -37,10 +38,13 @@ h1 {
 .p-lead { font-size: 1.3125rem; }
 
 .p-subtitle {
+  color: #7d7d7d;
   font-size: 2.25rem;
   margin: 0 auto 3em;
   max-width: 54rem;
 }
+
+a { color: #CA5E10; }
 
 
 /* ###### */
