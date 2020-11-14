@@ -1,8 +1,30 @@
 /* fonts */
-/* 
+/*
     font-family: 'Cinzel', serif;
     font-family: 'PT Serif', serif;
 */
+
+/* ###### */
+/* GLOBAL */
+/* ------ */
+
+*,
+*::before,
+*::after {
+  border: 1px dotted hotpink;
+  box-sizing: border-box;
+}
+
+
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
+
+
+
+/* ###### */
+/* LAYOUT */
+/* ------ */
 
 .container {
   width: 90%;
