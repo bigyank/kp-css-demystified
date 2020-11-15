@@ -1,7 +1,15 @@
+/* ###### */
+/* GLOBAL */
+/* ------ */
+
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
 
 h1 {
   font-size: 2.5rem;
@@ -12,28 +20,16 @@ h1 {
   margin-bottom: 0;
 }
 
-.p-subhead {
-  font-size: 1.3125rem;
-  margin-top: 0;
-}
-
-.plans {
-  display: flex;
-  justify-content: center;
-}
-
-.plan {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
-  width: 200px;
-  padding: 2em;
-  border-radius: 1em;
-  margin: 0 0.5em;
-}
+/* ---------- */
 
 .h2-plan {
   text-transform: uppercase;
   margin: 0 0 1em;
+}
+
+.p-plan-description {
+  margin: 2em 0;
+  line-height: 1.5;
 }
 
 .p-plan-price {
@@ -42,15 +38,17 @@ h1 {
   margin: 0;
 }
 
+.p-subhead {
+  font-size: 1.3125rem;
+  margin-top: 0;
+}
+
+/* ---------- */
+
 .p-plan-price span {
   display: block;
   font-size: 1.5625rem;
   font-weight: 300;
-}
-
-.p-plan-description {
-  margin: 2em 0;
-  line-height: 1.5;
 }
 
 .a-btn-plan {
@@ -61,4 +59,22 @@ h1 {
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+/* ###### */
+/* LAYOUT */
+/* ------ */
+
+.plan {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  width: 200px;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 0.5em;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
 }
