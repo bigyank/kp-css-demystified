@@ -13,6 +13,7 @@ body {
   color: #414141;
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -24,9 +25,6 @@ body {
 h1,
 .p-subtitle,
 .p-lead { margin-top: 0; }
-
-h1,
-.p-subtitle { text-align: center; }
 
 h1 {
   font-family: 'Cinzel', serif;
@@ -40,7 +38,8 @@ h1 {
 .p-subtitle {
   color: #7d7d7d;
   font-size: 2.25rem;
-  margin: 0 auto 3em;
+  line-height: 1.2;
+  margin: 0 auto;
   max-width: 54rem;
 }
 
@@ -52,10 +51,14 @@ a { color: #CA5E10; }
 /* ------ */
 
 article {
-  line-height: 1.6;
   margin: 0 auto;
   max-width: 66rem;
+}
+
+header {
   padding-top: 10em;
+  padding-bottom: 6em;
+  text-align: center;
 }
 
 .container {
