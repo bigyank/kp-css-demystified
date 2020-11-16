@@ -23,7 +23,6 @@ body {
 /* ---------- */
 
 h1 {
-  color: var(--clr-teal);
   font-size: 2.5rem;
   font-weight: 900;
   margin-top: 3em;
@@ -45,9 +44,9 @@ h1 {
 }
 
 .p-plan-price {
-  color: var(--clr-teal);
   font-size: 3rem;
   font-weight: 900;
+  line-height: 1;
   margin: 0;
 }
 
@@ -66,10 +65,8 @@ h1 {
   font-weight: 300;
 }
 
-.a-btn-plan {
-  background: var(--clr-base);
+.a-btn {
   border-radius: 0.25em;
-  color: white;
   font-size: .875rem;
   font-weight: 700;
   padding: 0.5em 0.75em;
@@ -77,7 +74,12 @@ h1 {
   text-transform: uppercase;
 }
 
-.a-btn-plan.prom {
+.a-btn-plan {
+  background: var(--clr-base);
+  color: white;
+}
+
+.a-btn-plan--prom {
   background: white;
   color: var(--clr-base);
 }
@@ -95,7 +97,7 @@ h1 {
   width: 200px;
 }
 
-.plan.prom {
+.plan--prom {
   background: linear-gradient(-45deg, var(--clr-teal), var(--clr-blue));
   color: white;
 }
@@ -104,3 +106,9 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+/* ##### */
+/* UTILS */
+/* ----- */
+
+.text-accent { color: var(--clr-teal); }
