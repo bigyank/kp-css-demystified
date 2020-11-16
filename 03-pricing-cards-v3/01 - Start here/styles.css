@@ -4,6 +4,7 @@
 *,
 *::before,
 *::after {
+  /* outline: 1px dotted hotpink; */
   box-sizing: border-box;
 }
 
@@ -18,7 +19,7 @@ body {
 /* ########## */
 /* TYPOGRAPHY */
 /* ---------- */
-.section-title {
+.h2-section {
   color: #00a1ab;
   font-size: 2.5rem;
   font-weight: 900;
@@ -27,11 +28,14 @@ body {
   text-transform: uppercase;
 }
 
-.fs-500 {
+.p-fs-500 {
   font-size: 1.3125rem;
-  margin: 0;
+  margin-top: 0;
 }
 
+/* ###### */
+/* LAYOUT */
+/* ------ */
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -41,7 +45,7 @@ body {
 /* ####### */
 /* BUTTONS */
 /* ------- */
-.button {
+.a-btn {
   background: #00a1ab;
   border-radius: 0.25em;
   color: #fff;
@@ -52,24 +56,59 @@ body {
   text-transform: uppercase;
 }
 
-.button--light {
-  background: white;
-  color: #4e4e4e;
-}
-
-.button--dark {
+.a-btn--dark {
   background: #4e4e4e;
   color: white;
+}
+
+.a-btn--light {
+  background: white;
+  color: #4e4e4e;
 }
 
 /* ##### */
 /* PLANS */
 /* ----- */
-.plans {
-  display: flex;
-  justify-content: center;
+.h2-plan {
+  margin: 0 0 1em;
+  text-transform: uppercase;
+}
+
+.p-plan-price {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+}
+
+.plan--light .p-plan-price {
+  color: #00a1ab;
+}
+
+.p-plan-description {
+  line-height: 1.5;
   margin: 2em 0;
 }
+
+/* ----- */
+
+.p-plan-price span {
+  display: block;
+  font-size: 1.5625rem;
+  font-weight: 300;
+}
+
+.plan--accent .a-btn {
+  background: white;
+  color: #4e4e4e;
+}
+
+.plan--light .a-btn {
+  background: #4e4e4e;
+  color: white;
+}
+
+/* ----- */
 
 .plan {
   border-radius: 1em;
@@ -78,61 +117,25 @@ body {
   width: 200px;
 }
 
-.plan--light {
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
-  color: #4e4e4e;
-}
-
-.plan--light .plan__price {
-  color: #00a1ab;
-}
-
-.plan--light .button {
-  background: #4e4e4e;
-  color: white;
-}
-
 .plan--accent {
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
   color: #fff;
 }
 
-.plan--accent .button {
-  background: white;
+.plan--light {
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
   color: #4e4e4e;
 }
 
-.plan__title {
-  margin: 0 0 1em;
-  text-transform: uppercase;
-}
-
-.plan__price {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1;
-  margin: 0;
-}
-
-.plan__price span {
-  display: block;
-  font-size: 1.5625rem;
-  font-weight: 300;
-}
-
-.plan__description {
-  line-height: 1.5;
+.plans {
+  display: flex;
+  justify-content: center;
   margin: 2em 0;
 }
 
 /* ##### */
 /* TEAMS */
 /* ----- */
-.team-members {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .team-member {
   align-items: center;
   background: #abc;
@@ -143,6 +146,13 @@ body {
   padding: 0.5em 2em 0.5em 0.5em;
   text-align: left;
 }
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----- */
 
 .team-member img {
   border-radius: 0.25em;
