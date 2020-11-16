@@ -3,13 +3,13 @@
 /* ------ */
 
 :root {
-  -clr-acc-base: #00CDAC;
-  -clr-acc-dark: #114243;
-  -clr-base:    #4e4e4e;
-  -clr-light:   #E5E3E8;
-  -clr-lighter: #FAFAFA;
-  -clr-blue: #3741a0;
-  -clr-teal: #00a1ab;
+  --clr-acc-base: #00CDAC;
+  --clr-acc-dark: #114243;
+  --clr-base:    #4E4E4E;
+  --clr-light:   #E5E3E8;
+  --clr-lighter: #FAFAFA;
+  --clr-blue: #3741a0;
+  --clr-teal: #00a1ab;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
-  color: var(-clr-teal);
+  color: var(--clr-teal);
   font-weight: 900;
   margin-top: 3em;
   margin-bottom: 0;
@@ -63,7 +63,7 @@ h1 {
 
 .a-btn-plan {
   background: white;
-  color: var(-clr-base);
+  color: var(--clr-base);
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
@@ -76,8 +76,8 @@ h1 {
 /* ------ */
 
 .plan {
+  background: linear-gradient(-45deg, var(--clr-teal), var(--clr-blue));
   color: white;
-  background: linear-gradient(-45deg, var(-clr-teal), var(-clr-blue));
   width: 200px;
   padding: 2em;
   border-radius: 1em;
