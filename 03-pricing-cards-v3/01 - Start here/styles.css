@@ -81,9 +81,7 @@ body {
   margin: 0;
 }
 
-.plan--light .p-plan-price {
-  color: #00a1ab;
-}
+.plan--light .p-plan-price { color: #00a1ab; }
 
 .p-plan-description {
   line-height: 1.5;
