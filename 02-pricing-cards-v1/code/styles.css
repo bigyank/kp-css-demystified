@@ -23,25 +23,25 @@ body {
 /* ---------- */
 
 h1 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
   color: var(--clr-teal);
+  font-size: 2.5rem;
   font-weight: 900;
   margin-top: 3em;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 /* ---------- */
 
 .h2-plan {
   font-size: 1.125;
-  text-transform: uppercase;
   margin: 0 0 1em;
+  text-transform: uppercase;
 }
 
 .p-plan-description {
-  margin: 2em 0;
   line-height: 1.5;
+  margin: 2em 0;
 }
 
 .p-plan-price {
@@ -68,13 +68,13 @@ h1 {
 
 .a-btn-plan {
   background: var(--clr-base);
-  color: white;
-  text-decoration: none;
-  padding: 0.5em 0.75em;
   border-radius: 0.25em;
-  text-transform: uppercase;
-  font-weight: 700;
+  color: white;
   font-size: .875rem;
+  font-weight: 700;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .a-btn-plan.prom {
@@ -88,11 +88,11 @@ h1 {
 
 .plan {
   background: linear-gradient(-45deg, var(--clr-light), var(--clr-lighter));
-  color: var(--clr-base);
-  width: 200px;
-  padding: 2em;
   border-radius: 1em;
+  color: var(--clr-base);
   margin: 0 0.5em;
+  padding: 2em;
+  width: 200px;
 }
 
 .plan.prom {
