@@ -1,3 +1,5 @@
+/* * { outline: 1px dotted hotpink; } */
+
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -23,7 +25,7 @@ h1 {
 .plans {
   display: flex;
   justify-content: center;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 
 .plan {
@@ -71,6 +73,7 @@ h1 {
 .button {
   background: #00a1ab;
   color: white;
+  display: inline-block;
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
@@ -78,14 +81,12 @@ h1 {
   font-weight: 700;
 }
 
-.plan--accent .button,
-.button--light {
+.plan--accent .button {
   background: white;
   color: #4e4e4e;
 }
 
-.plan--light .button,
-.button--dark {
+.plan--light .button {
   color: white;
   background: #4e4e4e;
 }
