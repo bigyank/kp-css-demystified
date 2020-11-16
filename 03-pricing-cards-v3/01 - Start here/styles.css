@@ -110,14 +110,16 @@ body {
 
 .plan {
   border-radius: 1em;
-  margin: 0 0.5em;
+  /* margin: 0 0.5em; */
   padding: 2em;
-  width: 200px;
+  width: 250px;
 }
 
 .plan--accent {
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
   color: #fff;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .plan--light {
@@ -126,6 +128,7 @@ body {
 }
 
 .plans {
+  align-items: baseline;
   display: flex;
   justify-content: center;
   margin: 2em 0;
