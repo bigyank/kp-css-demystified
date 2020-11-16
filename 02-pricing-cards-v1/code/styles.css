@@ -74,12 +74,12 @@ h1 {
   text-transform: uppercase;
 }
 
-.a-btn-plan {
+.a-btn--plan {
   background: var(--clr-base);
   color: white;
 }
 
-.a-btn-plan--prom {
+.a-btn--plan-prom {
   background: white;
   color: var(--clr-base);
 }
