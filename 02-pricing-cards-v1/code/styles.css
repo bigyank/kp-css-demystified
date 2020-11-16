@@ -43,10 +43,13 @@ h1 {
 }
 
 .p-plan-price {
+  color: var(--clr-teal);
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
 }
+
+.p-plan-price.prom { color: white; }
 
 .p-subhead {
   font-size: 1.3125rem;
@@ -62,8 +65,8 @@ h1 {
 }
 
 .a-btn-plan {
-  background: white;
-  color: var(--clr-base);
+  background: var(--clr-base);
+  color: white;
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
@@ -71,17 +74,27 @@ h1 {
   font-weight: 700;
 }
 
+.a-btn-plan.prom {
+  background: white;
+  color: var(--clr-base);
+}
+
 /* ###### */
 /* LAYOUT */
 /* ------ */
 
 .plan {
-  background: linear-gradient(-45deg, var(--clr-teal), var(--clr-blue));
-  color: white;
+  background: linear-gradient(-45deg, var(--clr-light), var(--clr-lighter));
+  color: var(--clr-base);
   width: 200px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+}
+
+.plan.prom {
+  background: linear-gradient(-45deg, var(--clr-teal), var(--clr-blue));
+  color: white;
 }
 
 .plans {
