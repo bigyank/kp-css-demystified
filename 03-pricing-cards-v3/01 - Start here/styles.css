@@ -1,29 +1,30 @@
-/* ///////////////
-  Reset
-  ////////////// */
-
+/* ##### */
+/* RESET */
+/* ----- */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* ///////////////
-  General styling
-  ////////////// */
-
+/* ###### */
+/* GLOBAL */
+/* ------ */
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
 .section-title {
+  color: #00a1ab;
   font-size: 2.5rem;
-  text-transform: uppercase;
   font-weight: 900;
   margin-top: 3em;
   margin-bottom: 0;
-  color: #00a1ab;
+  text-transform: uppercase;
 }
 
 .fs-500 {
@@ -32,24 +33,23 @@ body {
 }
 
 .container {
-  padding: 0 2em;
   margin: 0 auto;
   max-width: 1000px;
+  padding: 0 2em;
 }
 
-/* ///////////////
-  Buttons
-  ////////////// */
-
+/* ####### */
+/* BUTTONS */
+/* ------- */
 .button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5em 0.75em;
-  border-radius: 0.25em;
-  text-transform: uppercase;
-  font-weight: 700;
   background: #00a1ab;
+  border-radius: 0.25em;
   color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button--light {
@@ -58,14 +58,13 @@ body {
 }
 
 .button--dark {
-  color: white;
   background: #4e4e4e;
+  color: white;
 }
 
-/* ///////////////
-  Plans
-  ////////////// */
-
+/* ##### */
+/* PLANS */
+/* ----- */
 .plans {
   display: flex;
   justify-content: center;
@@ -73,15 +72,15 @@ body {
 }
 
 .plan {
-  width: 200px;
-  padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+  padding: 2em;
+  width: 200px;
 }
 
 .plan--light {
-  color: #4e4e4e;
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  color: #4e4e4e;
 }
 
 .plan--light .plan__price {
@@ -89,13 +88,13 @@ body {
 }
 
 .plan--light .button {
-  color: white;
   background: #4e4e4e;
+  color: white;
 }
 
 .plan--accent {
-  color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  color: #fff;
 }
 
 .plan--accent .button {
@@ -104,14 +103,14 @@ body {
 }
 
 .plan__title {
-  text-transform: uppercase;
   margin: 0 0 1em;
+  text-transform: uppercase;
 }
 
 .plan__price {
   font-size: 3rem;
-  line-height: 1;
   font-weight: 900;
+  line-height: 1;
   margin: 0;
 }
 
@@ -122,31 +121,30 @@ body {
 }
 
 .plan__description {
-  margin: 2em 0;
   line-height: 1.5;
+  margin: 2em 0;
 }
 
-/* ///////////////
-  Teams
-  ////////////// */
-
+/* ##### */
+/* TEAMS */
+/* ----- */
 .team-members {
   display: flex;
   flex-wrap: wrap;
 }
 
 .team-member {
+  align-items: center;
   background: #abc;
-  text-align: left;
+  border-radius: 0.5em;
+  display: flex;
   flex: 1 1 45%;
   margin: 1em;
-  display: flex;
-  border-radius: 0.5em;
-  align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+  text-align: left;
 }
 
 .team-member img {
-  width: 10rem;
   border-radius: 0.25em;
+  width: 10rem;
 }
