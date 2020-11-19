@@ -13,29 +13,32 @@
 /* ------ */
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
   text-align: center;
 }
 
 /* ########## */
 /* TYPOGRAPHY */
 /* ---------- */
+h2,
+h3,
+p { margin-top: 0; }
+
 .h2-section {
   color: #00a1ab;
   font-size: 2.5rem;
   font-weight: 900;
-  margin-top: 3em;
-  margin-bottom: 0;
+  margin-bottom: .2em;
   text-transform: uppercase;
 }
 
-.p-fs-500 {
-  font-size: 1.3125rem;
-  margin-top: 0;
-}
+.p-fs-500 { font-size: 1.3125rem; }
 
 /* ###### */
 /* LAYOUT */
 /* ------ */
+section { padding: 6em 0; }
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -110,9 +113,8 @@ body {
 
 .plan {
   border-radius: 1em;
-  /* margin: 0 0.5em; */
   padding: 2em;
-  width: 250px;
+  width: 16.5rem;
 }
 
 .plan--accent {
@@ -132,8 +134,7 @@ body {
 /* ##### */
 /* TEAMS */
 /* ----- */
-.h3-name,
-.p-position { margin: 0; }
+.h3-name { margin-bottom: 0; }
 
 .h3-name { font-size: 2rem; }
 
@@ -149,6 +150,8 @@ body {
 .bg--light img { margin-left: 1.5em; }
 
 .bg--light .info { text-align: right; }
+
+.team { background: #fafafa; }
 
 .team-member {
   align-items: center;
