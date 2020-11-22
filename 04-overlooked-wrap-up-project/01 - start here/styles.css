@@ -82,6 +82,18 @@ p { margin-top: 0; }
   color: var(--clr-ux-400);
 }
 
+.candidate .a-btn {
+  align-self: center;
+  color: white;
+  background: var(--clr-accent-400);
+  border-radius: var(--border-radius);
+  font-weight: 700;
+  justify-self: end;
+  letter-spacing: 1px;
+  padding: .5rem 2.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 /* /////////////////
    Layout related
@@ -144,6 +156,6 @@ p { margin-top: 0; }
 .candidate .social {
   grid-area: social;
 }
-.candidate .btn {
+.candidate .a-btn {
   grid-area: button;
 }
