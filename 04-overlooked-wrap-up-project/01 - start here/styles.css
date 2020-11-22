@@ -102,6 +102,13 @@ p { margin-top: 0; }
   text-transform: uppercase;
 }
 
+/* ###### */
+/* LAYOUT */
+/* ------ */
+.candidate { padding: .625em; }
+
+.candidate img { border-radius: var(--border-radius); }
+
 /* /////////////////
    Layout related
    no need to touch any of this
