@@ -107,7 +107,7 @@ p { margin-top: 0; }
 /* ------ */
 .candidate { padding: .625em; }
 
-.candidate img { border-radius: var(--border-radius); }
+.candidate > img { border-radius: var(--border-radius); }
 
 /* /////////////////
    Layout related
