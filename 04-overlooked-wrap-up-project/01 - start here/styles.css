@@ -31,7 +31,7 @@
 *,
 *::before,
 *::after {
-  outline: 1px dotted hotpink;
+  /* outline: 1px dotted hotpink; */
   box-sizing: border-box;
 }
 
@@ -56,6 +56,11 @@ body {
 .p-roles {
   font-size: var(--fs-300);
   font-weight: var(--fw-700);
+}
+
+.sp-tag {
+  border-radius: var(--border-radius);
+  padding: .25rem .75rem;
 }
 
 .sp-tag-dev {
