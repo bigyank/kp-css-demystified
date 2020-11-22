@@ -46,12 +46,12 @@ body {
 /* ########## */
 /* TYPOGRAPHY */
 /* ---------- */
-.name {
+.h2-name {
   font-family: var(--ff-accent);
   font-size: var(--fs-500);
 }
 
-.roles {
+.p-roles {
   font-size: var(--fs-300);
   font-weight: var(--fw-700);
 }
