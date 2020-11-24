@@ -50,7 +50,7 @@ h1 { font-size: var(--fs-title); }
 h2 {
   background: gray;
   border-radius: 100vw;
-  box-shadow: 0 4px 21px gray;
+  box-shadow: 0 4px 21px var(--clr-bg);
   color: white;
   font-size: inherit;
   letter-spacing: 1px;
@@ -96,9 +96,27 @@ main {
 /* UTILS */
 /* ----- */
 
-.bg-red { background: var(--clr-red); }
-.bg-blue { background: var(--clr-blue); }
-.bg-pink { background: var(--clr-pink); }
-.bg-orange { background: var(--clr-orange); }
-.bg-purple { background: var(--clr-purple); }
-.bg-green { background: var(--clr-green); }
+.bg-red {
+  --clr-bg: var(--clr-red);
+  background: var(--clr-bg);
+}
+.bg-blue {
+  --clr-bg: var(--clr-blue);
+  background: var(--clr-bg);
+}
+.bg-pink {
+  --clr-bg: var(--clr-pink);
+  background: var(--clr-bg);
+}
+.bg-orange {
+  --clr-bg: var(--clr-orange);
+  background: var(--clr-bg);
+}
+.bg-purple {
+  --clr-bg: var(--clr-purple);
+  background: var(--clr-bg);
+}
+.bg-green {
+  --clr-bg: var(--clr-green);
+  background: var(--clr-bg);
+}
