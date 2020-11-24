@@ -1,3 +1,7 @@
+/* ###### */
+/* GLOBAL */
+/* ------ */
+
 :root {
   --clr-red: rgba(232, 139, 139);
   --clr-blue: rgba(96, 168, 235);
@@ -13,6 +17,35 @@
   --fs-base: 1rem;
 }
 
-body {
-  font-family: "Red Hat Text", sans-serif;
+*,
+*::before,
+*::after {
+  outline: 1px dotted hotpink;
+  box-sizing: border-box;
 }
+
+body {
+  color: var(--clr-neutral-400);
+  font-family: "Red Hat Text", sans-serif;
+  font-size: var(--fs-base);
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1,
+p { margin-top: 0; }
+
+h1 { font-size: var(--fs-title); }
+
+h2 {
+  font-size: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.p-subtitle { line-height: 1.7; }
