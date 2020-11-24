@@ -10,16 +10,16 @@
   --purple-rgb: 139, 146, 232;
   --green-rgb: 81, 188, 157;
 
-  --clr-red: rgba(var(--red-rgb));
-  --clr-blue: rgba(var(--blue-rgb));
-  --clr-pink: rgba(var(--pink-rgb));
-  --clr-orange: rgba(var(--orange-rgb));
-  --clr-purple: rgba(var(--purple-rgb));
-  --clr-green: rgba(var(--green-rgb));
+  --clr-red: rgb(var(--red-rgb));
+  --clr-blue: rgb(var(--blue-rgb));
+  --clr-pink: rgb(var(--pink-rgb));
+  --clr-orange: rgb(var(--orange-rgb));
+  --clr-purple: rgb(var(--purple-rgb));
+  --clr-green: rgb(var(--green-rgb));
 
-  --clr-white: rgba(255, 255, 255);
-  --clr-neutral-400: rgba(94, 94, 94);
-  --clr-neutral-300: rgba(240, 242, 244);
+  --clr-white: rgb(255, 255, 255);
+  --clr-neutral-400: rgb(94, 94, 94);
+  --clr-neutral-300: rgb(240, 242, 244);
 
   --fs-title: 3rem;
   --fs-base: 1rem;
