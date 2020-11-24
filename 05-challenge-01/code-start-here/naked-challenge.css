@@ -3,12 +3,20 @@
 /* ------ */
 
 :root {
-  --clr-red: rgba(232, 139, 139);
-  --clr-blue: rgba(96, 168, 235);
-  --clr-pink: rgba(223, 135, 204);
-  --clr-orange: rgba(235, 143, 96);
-  --clr-purple: rgba(139, 146, 232);
-  --clr-green: rgba(81, 188, 157);
+  --red-rgb: 232, 139, 139;
+  --blue-rgb: 96, 168, 235;
+  --pink-rgb: 223, 135, 204;
+  --orange-rgb: 235, 143, 96;
+  --purple-rgb: 139, 146, 232;
+  --green-rgb: 81, 188, 157;
+
+  --clr-red: rgba(var(--red-rgb));
+  --clr-blue: rgba(var(--blue-rgb));
+  --clr-pink: rgba(var(--pink-rgb));
+  --clr-orange: rgba(var(--orange-rgb));
+  --clr-purple: rgba(var(--purple-rgb));
+  --clr-green: rgba(var(--green-rgb));
+
   --clr-white: rgba(255, 255, 255);
   --clr-neutral-400: rgba(94, 94, 94);
   --clr-neutral-300: rgba(240, 242, 244);
