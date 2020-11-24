@@ -58,7 +58,7 @@ h1 { font-size: var(--fs-title); }
 h2 {
   background: gray;
   border-radius: 100vw;
-  box-shadow: 0 4px 21px var(--clr-shadow);
+  box-shadow: 0 .25em 1.3125em 0 var(--clr-shadow);
   color: white;
   font-size: inherit;
   letter-spacing: 1px;
