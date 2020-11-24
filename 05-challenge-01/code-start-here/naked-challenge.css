@@ -58,7 +58,7 @@ h1 { font-size: var(--fs-title); }
 h2 {
   background: gray;
   border-radius: 100vw;
-  box-shadow: 0 4px 21px var(--clr-bg);
+  box-shadow: 0 4px 21px var(--clr-shadow);
   color: white;
   font-size: inherit;
   letter-spacing: 1px;
@@ -105,26 +105,26 @@ main {
 /* ----- */
 
 .bg-red {
-  --clr-bg: var(--clr-red);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--red-rgb), .5);
+  background: var(--clr-red);
 }
 .bg-blue {
-  --clr-bg: var(--clr-blue);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--blue-rgb), .5);
+  background: var(--clr-blue);
 }
 .bg-pink {
-  --clr-bg: var(--clr-pink);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--pink-rgb), .5);
+  background: var(--clr-pink);
 }
 .bg-orange {
-  --clr-bg: var(--clr-orange);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--orange-rgb), .5);
+  background: var(--clr-orange);
 }
 .bg-purple {
-  --clr-bg: var(--clr-purple);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--purple-rgb), .5);
+  background: var(--clr-purple);
 }
 .bg-green {
-  --clr-bg: var(--clr-green);
-  background: var(--clr-bg);
+  --clr-shadow: rgba(var(--green-rgb), .5);
+  background: var(--clr-green);
 }
