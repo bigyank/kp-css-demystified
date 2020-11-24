@@ -91,3 +91,14 @@ main {
   max-width: 350px;
   padding: 2.75em;
 }
+
+/* ##### */
+/* UTILS */
+/* ----- */
+
+.bg-red { background: var(--clr-red); }
+.bg-blue { background: var(--clr-blue); }
+.bg-pink { background: var(--clr-pink); }
+.bg-orange { background: var(--clr-orange); }
+.bg-purple { background: var(--clr-purple); }
+.bg-green { background: var(--clr-green); }
