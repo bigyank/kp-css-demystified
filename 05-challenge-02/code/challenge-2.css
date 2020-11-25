@@ -86,7 +86,9 @@ body {
 /* ------ */
 
 .cta {
+  background: var(--clr-bg);
   border-radius: 2.5rem;
+  color: var(--clr-fg);
   margin: 0 auto;
   max-width: 40rem;
   padding: 5rem;
@@ -96,6 +98,16 @@ body {
 /* UTILS */
 /* ----- */
 
-.bg-light {
-  background: var(--clr-neutral-100);
-}
+.bg-light,
+.bg-neutral { --clr-fg: var(--clr-primary-500); }
+
+.bg-accent,
+.bg-dark { --clr-fg: var(--clr-neutral-100); }
+
+.bg-light { --clr-bg: var(--clr-neutral-100); }
+
+.bg-neutral { --clr-bg: var(--clr-neutral-200); }
+
+.bg-accent { --clr-bg: var(--clr-primary-400); }
+
+.bg-dark { --clr-bg: var(--clr-primary-500); }
