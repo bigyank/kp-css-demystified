@@ -1,3 +1,7 @@
+/* ###### */
+/* GLOBAL */
+/* ------ */
+
 :root {
   --clr-neutral-100: #fff;
   --clr-neutral-400: #474554;
@@ -11,6 +15,7 @@
 }
 
 * {
+  outline: 2px dotted hotpink;
   box-sizing: border-box;
 }
 
@@ -22,18 +27,19 @@ body {
   padding: 4rem;
 }
 
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
+
 .section-title {
   font-family: var(--ff-accent);
   font-size: 1.75rem;
   margin-top: 0;
 }
 
-.cta {
-  max-width: 40rem;
-  margin: 0 auto;
-  padding: 5rem;
-  border-radius: 2.5rem;
-}
+/* ####### */
+/* BUTTONS */
+/* ------- */
 
 .btn {
   cursor: pointer;
@@ -72,6 +78,21 @@ body {
   background: var(--clr-primary-400);
   color: var(--clr-neutral-100);
 }
+
+/* ###### */
+/* LAYOUT */
+/* ------ */
+
+.cta {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 5rem;
+  border-radius: 2.5rem;
+}
+
+/* ##### */
+/* UTILS */
+/* ----- */
 
 .bg-light {
   background: var(--clr-neutral-100);
