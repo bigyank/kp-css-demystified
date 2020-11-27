@@ -56,7 +56,7 @@ body {
 
 .btn-primary {
   background: var(--btn-prim-bg, var(--clr-primary-400));
-  color: var(--btn-prim-fg, var(--clr-neutral-100));
+  color: var(--btn-prim-clr, var(--clr-neutral-100));
 }
 .btn-primary:hover {
   background: var(--clr-primary-300);
@@ -65,7 +65,7 @@ body {
 
 .btn-secondary {
   background: var(--btn-sec-bg, var(--clr-neutral-400));
-  color: var(--btn-sec-fg, var(--clr-neutral-100));
+  color: var(--btn-sec-clr, var(--clr-neutral-100));
 }
 .btn-secondary:hover {
   background: var(--btn-sec-bg-hov, var(--clr-primary-500));
@@ -74,14 +74,14 @@ body {
 
 .btn-outline {
   border: 2px solid var(--btn-outl-border-clr, var(--clr-primary-400));
-  color: var(--btn-outl-fg, var(--clr-primary-400));
+  color: var(--btn-outl-clr, var(--clr-primary-400));
   /* remove the border size from the padding for equal sizing */
   padding: calc(0.625rem - 2px) calc(1.5rem - 2px);
 }
 .btn-outline:hover {
   border-color: var(--btn-outl-border-clr-hov, var(--clr-primary-400));
   background: var(--btn-outl-bg-hov, var(--clr-primary-400));
-  color: var(--btn-outl-fg-hov, var(--clr-neutral-100));
+  color: var(--btn-outl-clr-hov, var(--clr-neutral-100));
 }
 
 /* ###### */
@@ -91,7 +91,7 @@ body {
 .cta {
   background: var(--clr-bg);
   border-radius: 2.5rem;
-  color: var(--clr-fg);
+  color: var(--clr-clr);
   margin: 0 auto;
   max-width: 40rem;
   padding: 5rem;
@@ -102,11 +102,11 @@ body {
 /* ----- */
 
 .bg-light,
-.bg-neutral { --clr-fg: var(--clr-primary-500); }
+.bg-neutral { --clr-clr: var(--clr-primary-500); }
 
 .bg-accent,
 .bg-dark {
-  --clr-fg: var(--clr-neutral-100);
+  --clr-clr: var(--clr-neutral-100);
 }
 
 .bg-light { --clr-bg: var(--clr-neutral-100); }
@@ -115,22 +115,22 @@ body {
 
 .bg-accent {
   --btn-prim-bg: var(--clr-neutral-100);
-  --btn-prim-fg: var(--clr-primary-400);
+  --btn-prim-clr: var(--clr-primary-400);
   --btn-outl-border-clr: var(--clr-neutral-100);
-  --btn-outl-fg: var(--clr-neutral-100);
+  --btn-outl-clr: var(--clr-neutral-100);
   --btn-outl-bg-hov: var(--clr-neutral-100);
-  --btn-outl-fg-hov: var(--clr-primary-400);
+  --btn-outl-clr-hov: var(--clr-primary-400);
   --clr-bg: var(--clr-primary-400);
 }
 
 .bg-dark {
   --btn-sec-bg: var(--clr-neutral-100);
-  --btn-sec-fg: var(--clr-primary-400);
+  --btn-sec-clr: var(--clr-primary-400);
   --btn-sec-bg-hov: var(--clr-primary-300);
   --btn-outl-border-clr: var(--clr-neutral-100);
-  --btn-outl-fg: var(--clr-neutral-100);
+  --btn-outl-clr: var(--clr-neutral-100);
   --btn-outl-border-clr-hov: var(--clr-neutral-100);
   --btn-outl-bg-hov: var(--clr-neutral-400);
-  --btn-outl-fg-hov: var(--clr-neutral-100);
+  --btn-outl-clr-hov: var(--clr-neutral-100);
   --clr-bg: var(--clr-primary-500);
 }
